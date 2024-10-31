@@ -72,6 +72,37 @@ span{
     flex-direction: column;
     gap: 20px;
 }
+.currentJob {
+    margin: 40px auto 0; /* 40px de margen superior, centrado horizontalmente */
+    padding: 15px;
+    border: 2px solid var(--text-color); /* Usa el color del texto para el borde */
+    border-radius: 10px;
+    background-color: var(--project-card-bg); /* Fondo según el modo */
+    color: var(--text-color); /* Texto según el tema */
+    text-align: center; /* Asegura que el texto esté centrado */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%; /* Puedes ajustar el ancho según sea necesario */
+    max-width: 500px; /* Máximo ancho para mantenerlo legible */
+}
+
+.currentJob h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: var(--text-color); /* Usa el color del texto */
+}
+
+.companyLogo {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+.currentJob p {
+    font-size: 1.1rem;
+    font-family: 'Roboto Mono', monospace; /* Coincide con la fuente general */
+    color: var(--text-color);
+}
+
+
 
 @media(width >= 800px ){
     .container{

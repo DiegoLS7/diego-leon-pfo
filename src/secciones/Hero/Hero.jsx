@@ -7,7 +7,8 @@ import githubLight from '../../assets/github-light.svg';
 import githubDark from '../../assets/github-dark.svg';
 import linkedinLight from '../../assets/linkedin-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
-import CV from '../../assets/cv.docx.pdf';
+import kpb from '../../assets/kpblogo.png';
+import CV from '../../assets/CV_DiegoLeonSandoval.pdf';
 import { useTheme } from '../../common/ThemeContext';
 
 function Hero() {
@@ -53,6 +54,14 @@ function Hero() {
                     Currículum
                 </button>
             </a>
+
+            <div className={Styles.currentJob}>
+                  <h3>Trabajo Actual</h3>
+                  <a href="https://kpb.cl" target="_blank" rel="noopener noreferrer">
+                        <img src={kpb} alt="Logo de la empresa" className={Styles.companyLogo} />
+                    </a>
+                  <p>Desarrollador Full Stack -2024-</p>
+              </div>
 
         </div>
 
